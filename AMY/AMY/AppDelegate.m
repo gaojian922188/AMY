@@ -7,7 +7,10 @@
 //
 
 #import "AppDelegate.h"
-
+#import "AMYIndexViewController.h"
+#import "AMYCalendarViewController.h"
+#import "AMYMineViewController.h"
+#import "AMYMoreViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +20,34 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    UITabBarController *tabarController = [[UITabBarController alloc]init];
+    self.window.rootViewController = tabarController;
+    tabarController.tabBar.selectedImageTintColor = [UIColor colorWithRed:243/255.f green:104/255.f blue:149/255.f alpha:1];
+    
+    AMYIndexViewController *indexViewController = [[AMYIndexViewController alloc]init];
+    indexViewController.tabBarItem.image = [UIImage imageNamed:@"tabbar_index_n"];
+    indexViewController.tabBarItem.selectedImage = [UIImage imageNamed:@"tabbar_index_s"];
+    indexViewController.tabBarItem.title = @"首页";
+    
+    AMYCalendarViewController *calendarViewController = [[AMYCalendarViewController alloc]init];
+    calendarViewController.tabBarItem.image = [UIImage imageNamed:@"tabbar_calendar_n"];
+    calendarViewController.tabBarItem.selectedImage = [UIImage imageNamed:@"tabbar_calendar_s"];
+    calendarViewController.tabBarItem.title = @"日历";
+    
+    AMYMineViewController *mineViewController = [[AMYMineViewController alloc]init];
+    mineViewController.tabBarItem.image = [UIImage imageNamed:@"tabbar_mine_n"];
+    mineViewController.tabBarItem.selectedImage = [UIImage imageNamed:@"tabbar_mine_s"];
+    mineViewController.tabBarItem.title = @"我的";
+    
+    AMYMoreViewController *moreViewController = [[AMYMoreViewController alloc]init];
+    moreViewController.tabBarItem.image = [UIImage imageNamed:@"tabbar_more_n"];
+    moreViewController.tabBarItem.selectedImage = [UIImage imageNamed:@"tabbar_more_s"];
+    moreViewController.tabBarItem.title = @"更多";
+    
+    tabarController.viewControllers = @[indexViewController,calendarViewController,mineViewController,moreViewController];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

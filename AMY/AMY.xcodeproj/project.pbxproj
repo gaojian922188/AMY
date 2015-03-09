@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB20F4ED1AAD957F005E37AE /* AMYIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB20F4EB1AAD957F005E37AE /* AMYIndexViewController.m */; };
+		EB20F4EE1AAD957F005E37AE /* AMYIndexViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB20F4EC1AAD957F005E37AE /* AMYIndexViewController.xib */; };
+		EB20F4F81AAD97B9005E37AE /* ReusedCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB20F4F51AAD97B9005E37AE /* ReusedCycleScrollView.m */; };
+		EB20F4F91AAD97B9005E37AE /* XLCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB20F4F71AAD97B9005E37AE /* XLCycleScrollView.m */; };
+		EB20F4FD1AADA766005E37AE /* AMYMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB20F4FB1AADA766005E37AE /* AMYMoreViewController.m */; };
+		EB20F4FE1AADA766005E37AE /* AMYMoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB20F4FC1AADA766005E37AE /* AMYMoreViewController.xib */; };
+		EB20F5021AADA77B005E37AE /* AMYMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB20F5001AADA77B005E37AE /* AMYMineViewController.m */; };
+		EB20F5031AADA77B005E37AE /* AMYMineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB20F5011AADA77B005E37AE /* AMYMineViewController.xib */; };
+		EB20F5071AADA7AA005E37AE /* AMYCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB20F5051AADA7AA005E37AE /* AMYCalendarViewController.m */; };
+		EB20F5081AADA7AA005E37AE /* AMYCalendarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB20F5061AADA7AA005E37AE /* AMYCalendarViewController.xib */; };
+		EB20F50C1AADAC5B005E37AE /* AMYHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = EB20F50B1AADAC5B005E37AE /* AMYHttpClient.m */; };
 		EB941F3A1AAD8AA300FA5A62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB941F391AAD8AA300FA5A62 /* main.m */; };
 		EB941F3D1AAD8AA300FA5A62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB941F3C1AAD8AA300FA5A62 /* AppDelegate.m */; };
 		EB941F451AAD8AA300FA5A62 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB941F441AAD8AA300FA5A62 /* Images.xcassets */; };
@@ -29,6 +40,24 @@
 		4839CE242CEB73BD3EB187A7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		78E009EEABD2EC2B345EBE01 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		90399AD7889C94308843263F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB20F4EA1AAD957F005E37AE /* AMYIndexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMYIndexViewController.h; sourceTree = "<group>"; };
+		EB20F4EB1AAD957F005E37AE /* AMYIndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMYIndexViewController.m; sourceTree = "<group>"; };
+		EB20F4EC1AAD957F005E37AE /* AMYIndexViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AMYIndexViewController.xib; sourceTree = "<group>"; };
+		EB20F4F41AAD97B9005E37AE /* ReusedCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReusedCycleScrollView.h; sourceTree = "<group>"; };
+		EB20F4F51AAD97B9005E37AE /* ReusedCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReusedCycleScrollView.m; sourceTree = "<group>"; };
+		EB20F4F61AAD97B9005E37AE /* XLCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLCycleScrollView.h; sourceTree = "<group>"; };
+		EB20F4F71AAD97B9005E37AE /* XLCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLCycleScrollView.m; sourceTree = "<group>"; };
+		EB20F4FA1AADA766005E37AE /* AMYMoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMYMoreViewController.h; sourceTree = "<group>"; };
+		EB20F4FB1AADA766005E37AE /* AMYMoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMYMoreViewController.m; sourceTree = "<group>"; };
+		EB20F4FC1AADA766005E37AE /* AMYMoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AMYMoreViewController.xib; sourceTree = "<group>"; };
+		EB20F4FF1AADA77B005E37AE /* AMYMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMYMineViewController.h; sourceTree = "<group>"; };
+		EB20F5001AADA77B005E37AE /* AMYMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMYMineViewController.m; sourceTree = "<group>"; };
+		EB20F5011AADA77B005E37AE /* AMYMineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AMYMineViewController.xib; sourceTree = "<group>"; };
+		EB20F5041AADA7AA005E37AE /* AMYCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMYCalendarViewController.h; sourceTree = "<group>"; };
+		EB20F5051AADA7AA005E37AE /* AMYCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMYCalendarViewController.m; sourceTree = "<group>"; };
+		EB20F5061AADA7AA005E37AE /* AMYCalendarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AMYCalendarViewController.xib; sourceTree = "<group>"; };
+		EB20F50A1AADAC5B005E37AE /* AMYHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMYHttpClient.h; sourceTree = "<group>"; };
+		EB20F50B1AADAC5B005E37AE /* AMYHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMYHttpClient.m; sourceTree = "<group>"; };
 		EB941F341AAD8AA300FA5A62 /* AMY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB941F381AAD8AA300FA5A62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB941F391AAD8AA300FA5A62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -77,6 +106,34 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		EB20F4F21AAD97A0005E37AE /* 三方代码 */ = {
+			isa = PBXGroup;
+			children = (
+				EB20F4F31AAD97B9005E37AE /* XLCycleScrollView */,
+			);
+			name = "三方代码";
+			sourceTree = "<group>";
+		};
+		EB20F4F31AAD97B9005E37AE /* XLCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				EB20F4F41AAD97B9005E37AE /* ReusedCycleScrollView.h */,
+				EB20F4F51AAD97B9005E37AE /* ReusedCycleScrollView.m */,
+				EB20F4F61AAD97B9005E37AE /* XLCycleScrollView.h */,
+				EB20F4F71AAD97B9005E37AE /* XLCycleScrollView.m */,
+			);
+			path = XLCycleScrollView;
+			sourceTree = "<group>";
+		};
+		EB20F5091AADAC2D005E37AE /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				EB20F50A1AADAC5B005E37AE /* AMYHttpClient.h */,
+				EB20F50B1AADAC5B005E37AE /* AMYHttpClient.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
 		EB941F2B1AAD8AA300FA5A62 = {
 			isa = PBXGroup;
 			children = (
@@ -100,12 +157,14 @@
 		EB941F361AAD8AA300FA5A62 /* AMY */ = {
 			isa = PBXGroup;
 			children = (
+				EB20F5091AADAC2D005E37AE /* Helper */,
 				EB941F3B1AAD8AA300FA5A62 /* AppDelegate.h */,
 				EB941F3C1AAD8AA300FA5A62 /* AppDelegate.m */,
 				EB941F601AAD923F00FA5A62 /* 首页 */,
 				EB941F631AAD925A00FA5A62 /* 更多 */,
 				EB941F621AAD925200FA5A62 /* 我的 */,
 				EB941F611AAD924A00FA5A62 /* 日历 */,
+				EB20F4F21AAD97A0005E37AE /* 三方代码 */,
 				EB941F441AAD8AA300FA5A62 /* Images.xcassets */,
 				EB941F461AAD8AA300FA5A62 /* LaunchScreen.xib */,
 				EB941F371AAD8AA300FA5A62 /* Supporting Files */,
@@ -142,6 +201,9 @@
 		EB941F601AAD923F00FA5A62 /* 首页 */ = {
 			isa = PBXGroup;
 			children = (
+				EB20F4EA1AAD957F005E37AE /* AMYIndexViewController.h */,
+				EB20F4EB1AAD957F005E37AE /* AMYIndexViewController.m */,
+				EB20F4EC1AAD957F005E37AE /* AMYIndexViewController.xib */,
 			);
 			name = "首页";
 			sourceTree = "<group>";
@@ -149,6 +211,9 @@
 		EB941F611AAD924A00FA5A62 /* 日历 */ = {
 			isa = PBXGroup;
 			children = (
+				EB20F5041AADA7AA005E37AE /* AMYCalendarViewController.h */,
+				EB20F5051AADA7AA005E37AE /* AMYCalendarViewController.m */,
+				EB20F5061AADA7AA005E37AE /* AMYCalendarViewController.xib */,
 			);
 			name = "日历";
 			sourceTree = "<group>";
@@ -156,6 +221,9 @@
 		EB941F621AAD925200FA5A62 /* 我的 */ = {
 			isa = PBXGroup;
 			children = (
+				EB20F4FF1AADA77B005E37AE /* AMYMineViewController.h */,
+				EB20F5001AADA77B005E37AE /* AMYMineViewController.m */,
+				EB20F5011AADA77B005E37AE /* AMYMineViewController.xib */,
 			);
 			name = "我的";
 			sourceTree = "<group>";
@@ -163,6 +231,9 @@
 		EB941F631AAD925A00FA5A62 /* 更多 */ = {
 			isa = PBXGroup;
 			children = (
+				EB20F4FA1AADA766005E37AE /* AMYMoreViewController.h */,
+				EB20F4FB1AADA766005E37AE /* AMYMoreViewController.m */,
+				EB20F4FC1AADA766005E37AE /* AMYMoreViewController.xib */,
 			);
 			name = "更多";
 			sourceTree = "<group>";
@@ -213,11 +284,13 @@
 		EB941F2C1AAD8AA300FA5A62 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = AMY;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = ASYH;
 				TargetAttributes = {
 					EB941F331AAD8AA300FA5A62 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = EB2L6Z66SK;
 					};
 					EB941F4C1AAD8AA300FA5A62 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -251,6 +324,10 @@
 			files = (
 				EB941F481AAD8AA300FA5A62 /* LaunchScreen.xib in Resources */,
 				EB941F451AAD8AA300FA5A62 /* Images.xcassets in Resources */,
+				EB20F5031AADA77B005E37AE /* AMYMineViewController.xib in Resources */,
+				EB20F4EE1AAD957F005E37AE /* AMYIndexViewController.xib in Resources */,
+				EB20F5081AADA7AA005E37AE /* AMYCalendarViewController.xib in Resources */,
+				EB20F4FE1AADA766005E37AE /* AMYMoreViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,8 +378,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB20F4F81AAD97B9005E37AE /* ReusedCycleScrollView.m in Sources */,
+				EB20F50C1AADAC5B005E37AE /* AMYHttpClient.m in Sources */,
 				EB941F3D1AAD8AA300FA5A62 /* AppDelegate.m in Sources */,
 				EB941F3A1AAD8AA300FA5A62 /* main.m in Sources */,
+				EB20F4F91AAD97B9005E37AE /* XLCycleScrollView.m in Sources */,
+				EB20F4ED1AAD957F005E37AE /* AMYIndexViewController.m in Sources */,
+				EB20F4FD1AADA766005E37AE /* AMYMoreViewController.m in Sources */,
+				EB20F5071AADA7AA005E37AE /* AMYCalendarViewController.m in Sources */,
+				EB20F5021AADA77B005E37AE /* AMYMineViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +454,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -405,7 +489,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -417,6 +501,7 @@
 			baseConfigurationReference = 4839CE242CEB73BD3EB187A7 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = AMY/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -429,6 +514,7 @@
 			baseConfigurationReference = 78E009EEABD2EC2B345EBE01 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = AMY/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
